@@ -1,0 +1,18 @@
+.dropdown-menu {
+    transition: 0.2s ease;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.dropdown-menu:hover {
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.dropdown-item {
+    color: #000;
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #000;
+    color: #fff !important;
+}

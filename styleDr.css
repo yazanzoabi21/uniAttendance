@@ -1,0 +1,29 @@
+/*.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808080;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 10px;
+    cursor: pointer; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: aqua;
+    text-decoration: underline;
+}*/

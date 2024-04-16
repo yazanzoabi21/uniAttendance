@@ -1,0 +1,128 @@
+* {
+    font-family: Quicksand;
+    font-size: 16px;
+    color: black;
+    }
+    
+    body {
+    margin: 10px;
+    height: 5500vh;
+    padding: 100px;
+    padding-right: 5px;
+    border: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    .form {
+    background-color: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    margin-right: 130px;
+    }
+    
+    .row-one {
+    padding: 20px;
+    }
+    
+    .row-two {
+    padding: 20px;
+    }
+    
+    .text-input {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    }
+    
+    .text-input:last-child {
+    margin-bottom: 35px;
+    }
+    
+    .text-input:hover {
+    background-color: #cbe7fd;
+    }
+    
+    #submit {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: white; /*#3c403f*/
+    color: #fff;
+    margin: auto;
+    outline: none;
+    }
+
+    /*#submit:hover{
+      background-color: #6D6D6D;
+    }*/
+    
+    #change {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: #2d3a43; /*#2d3a43*/
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    }
+
+    .text {
+    display: inline-block;
+    margin: 5px 20px 5px 8px;
+    }
+    
+    #change:hover{
+    background-color: #2E3234;
+    } 
+
+    h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #04AA6D;
+    padding-top: 15px;
+    display: block;
+    }
+    
+    .styled-table {
+      border-collapse: collapse;
+      margin: 30px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 1000px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    
+    .styled-table thead tr {
+      background-color:black;
+      color: #fff;
+      text-align: left;
+    }
+
+    .styled-table th,
+    .styled-table td {
+      padding: 12px 15px;
+    }
+    
+    .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    
+    .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+    
+    .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #E6E6E6;
+    }
